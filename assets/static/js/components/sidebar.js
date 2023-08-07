@@ -1,6 +1,6 @@
-import isDesktop from '../helper/isDesktop'
-
-
+function isDesktop(window) {
+  return window.innerWidth > 1200;
+}
 /**
  * Calculate nested children height in sidebar menu
 * @param {HTMLElement} el 
