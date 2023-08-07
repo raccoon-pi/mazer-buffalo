@@ -1,7 +1,12 @@
-require("expose-loader?exposes=$,jQuery!jquery");
-require("bootstrap/dist/js/bootstrap.bundle.js");
-require("@fortawesome/fontawesome-free/js/all.js");
-require("jquery-ujs/src/rails.js");
+// require("expose-loader?exposes=$,jQuery!jquery");
+// require("bootstrap/dist/js/bootstrap.bundle.js");
+// require("@fortawesome/fontawesome-free/js/all.js");
+// require("jquery-ujs/src/rails.js");
+
+// const featherIcons = require("feather-icons");
+// featherIcons.replace()
+
+// require("./mazer");
 
 $(() => {
 
